@@ -1,6 +1,6 @@
 *,*::after,*::before{
   padding: 0;
-  margin: 0;
+  margin: 0; margin-left: auto;
   box-sizing: inherit;
 }
 :root{
