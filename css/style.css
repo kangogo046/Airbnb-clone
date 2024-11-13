@@ -33,8 +33,9 @@
   width:20px;
   background-color: red;
   border-radius: 100px;
-  padding: 4px 5px;
+  padding: 3px 3px;
   align-items: center;
+  border-left: 40px;
 
 }
 .main-icon h1{
@@ -44,55 +45,73 @@ nav{
     display: flex;
   justify-content: space-between;
 }
+
+
 .search-bar-content{
   display: flex;
-  border-style:solid;
-  border-radius: 25px;
-  border-color: rgb(18, 128, 106);
-  padding: 10px;
-  margin-top: 10px;
-  width: auto;
-  box-shadow: 2px 3px;
+  align-items: center;
 
- 
+  border: 1px solid rgb(209, 171, 171);
+  border-radius: 25px;
   
+  border: 1px solid rgb(164, 160, 160);
+  margin-top: 30px;
+  height: 40px;
+  border-style: none;
+  margin-right: 40px;
+  width: auto;
+  box-shadow: 5px 5px 15px;
+
 }
 .search-bar-content h3:not(:nth-child(3)){
   border-right: 1px solid rgb(4, 86, 69);
- 
   padding:0 12px;
   
 }
+  
+
 .search-bar-content h3:nth-child(3){
   padding: 0 10px;
   color: green;
+  margin-right: 10px;
 }
-   .far-globe{
+   .profiles.far-globe{
     align-items: center;
-    justify-content:space-between;
-    margin: 20px;
+   
+    margin: 30px;
+   }
+   .profiles h1{
+    font-size: 20px;
+    margin: 12px;
+   }
+   .account i:first-child{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 9px;
    }
 
    .profiles{
    align-items: center;
    display: flex;
-   margin-right: 10px;
    justify-content: space-between;
-   margin: 10px 10px;
+   margin: 10px;
    }
- .account{
-  margin: 20px;
-  border-style:groove;
-  border-radius: 20px;
-  padding: 10px;
-  cursor:pointer;
- }
-  .far-user{
-    margin: 25px;
-  }
-  .profiles h1{
+   .account{
     margin: 30px;
-  }
+    border-style:none;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgb(164, 160, 160);
+    padding:  3 4px;;
+    cursor:pointer;
+   }
+  .account i:nth-child(2){
+    margin: 5px;
+    margin-left:10px;
+    font-size: 20px;
  
- .   
+  }
+
+ 
+ 
   
